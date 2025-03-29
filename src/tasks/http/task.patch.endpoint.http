@@ -1,0 +1,8 @@
+PATCH http://localhost:2001/tasks/update
+user-agent: httpyac
+Content-Type: application/json
+
+{
+   "_id": "67e758b6b66077301afa317b",
+    "title": "new task"
+}

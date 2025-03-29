@@ -1,5 +1,14 @@
 POST http://localhost:2001/tasks/create
 user-agent: httpyac
-//Content-Type: application/json
+Content-Type: application/json
 
-{}
+{
+    "title": "Test title",
+    "description": "Test Description",
+    "status": "todo",
+    "priority": "normal",
+   "dueDate": "2025-01-25T15:30"
+
+
+}
+
